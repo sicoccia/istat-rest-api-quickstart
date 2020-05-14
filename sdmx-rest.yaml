@@ -6,17 +6,17 @@ info:
     url: https://www.istat.it/it/metodi-e-strumenti/web-service-sdmx
 
   description: |-
-    Grazie a un sistema tecnologicamente avanzato, l’Istat è in grado di diffondere i dati del corporate data
-    warehouse I.Stat anche in modalità machine-to-machine via web service.
-
-    Il servizio, gratuito e liberamente disponibile, consente agli enti e alle organizzazioni di formulare specifiche
-    richieste (query), di effettuare il download dei dati di interesse  e di accoglierli agevolmente nei  propri
-    sistemi (basi dati, portali web ecc.).
-
-    Il meccanismo query/download sfrutta un protocollo standard SDMX (Statistical Data and Metadata eXchange), a
-    dottato per la trasmissione di dati statistici dalle più importanti organizzazioni internazionali.
+    Il [Single Exit Point (SEP)]  (https://www.istat.it/it/metodi-e-strumenti/web-service-sdmx) è una API esposta dall’Istituto Nazionale di Statistica (Istat) per permettere l’accesso in modalità machine-to-machine ai dati memorizzati nel database di diffusione [I.Stat](http://dati.istat.it/)
+    Il servizio, gratuito e liberamente disponibile, consente agli enti e alle organizzazioni di formulare specifiche richieste (query), di effettuare il download dei dati di interesse e di accoglierli agevolmente nei propri sistemi (basi dati, portali web ecc.).
+    La ricerca delle statistiche correntemente prodotte dall’Istat è facilitata da una catalogazione per temi. 
 
     #### Note
+    Il meccanismo query/download si basa sullo standard [SDMX (Statistical Data and Metadata eXchange)] (https://sdmx.org/) sviluppato da sette organizzazioni internazionali (Bank for International Settlements, European Central Bank, Eurostat, International Monetary Fund, Organisation for Economic Cooperation and Development (OECD), United Nations Statistical Division, World Bank) per facilitare lo scambio e la condivisione di dati e metadati statistici. Dal 2013 SDMX è diventato uno standard ISO (IS 17369).
+SDMX è anche alla base del progetto [Hub della statistica pubblica](https://www.sistan.it/index.php?id=580) per la condivisione, l’integrazione e la diffusione di macrodati prodotti dai soggetti del Sistema Statistico Nazionale (Sistan) o da altri enti produttori di statistiche che svolgono funzioni o servizi d’interesse pubblico.
+SDMX si basa su un solido modello informativo adottato anche dal W3C per la descrizione dei dati multidimensionali in ambito Linked Open Data attraverso l’[RDF Data Cube Vocabolary](https://www.w3.org/TR/vocab-data-cube/.
+
+    
+    
     For additional information, check the
     [official sdmx-rest specification](https://github.com/sdmx-twg/sdmx-rest/tree/master/v2_1/ws/rest/docs)
     or the [dedicated Wiki](https://github.com/sdmx-twg/sdmx-rest/wiki).
